@@ -10,43 +10,81 @@
 /* Universal Selector  */
 /* *{
     font-family: Arial, Helvetica, sans-serif;
+  ;
+} */
+
+/* h1 has 24 px == 1.5em  */
+/* h1{
+    font-size: 1.5em;
 } */
 
 /* Element Selector  */
 /* body{
     font-size: 20px;
+    border: 3px solid black;
 } */
 
 /* It is Also Worked, they uses Inheritance */
-p{
+/* p{
     color: blue;
-}
+} */
 
 /* Class selector */
-.grey{
+/* .grey{
     color: grey;
     font-style: italic;
-}
+} */
 
 /* ID Selector  */
-#second{
+/* #second{
     color: rgb(19, 103, 8);
-}
+} */
 
 /* Group Selctor  */
-h1,h2{
+/* h1,h2{
     color: violet;
-}
+} */
 
 /* Inside Group Selector */
-p span{
+/* p span{
     background-color:rgb(221, 87, 87);
-}
+} */
 
-.grey span{
+/* .grey span{
     color: blue;
-}
+} */
 
-.highlight{
-    background-color: rgb(223, 16, 16);
+/* Universal Selector To Inherit Because Form Has Not Font Style Change */
+/* input,button{
+    font: inherit;
+} */
+
+/* a ID is 1st Priority To Change the style 
+a Class Is 2nd Priority to change the style
+a element is 3rd Priority to change the style */
+
+
+
+body{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 78, 78);
+    color: rgb(255,255,255);  
+    /* It Is Red Green Blue Color Called 'rgb', (Min)0 To 255(Max) */
+}
+/* p{
+     color: rgba(249, 249, 21,0.6)
+   It Is Red Green Blue Transparency called 'rgba' (Min)0 To 1(Max)Transparency
+} */
+
+/* p{
+    color:#00ff00;
+    It Is Hexadecimal Color Code (Min)0 To F(Max) Same as RGB Pair Concept (00 00 00).
+} */
+
+p{
+    color:hsl(120,100%,50%);
+    /* It Has Hue Saturation Lightness Color Code. (Min)0 To 360(Max)Hue - 0 is Red, 120 is Green, 240 is Blue. , 
+    (Min)0% To 100%(Max)Saturation & Lightness. */
+    /* Also Same As hsla With Transparency.(0 To 1) */
 }
