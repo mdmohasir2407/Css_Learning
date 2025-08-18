@@ -1,0 +1,52 @@
+/* Comment Has Star & bar */ 
+/* It IS External Css */
+/* h1{
+    color: red;
+    font-size: 50px;
+} */
+
+/* Types Of Selectors  */
+
+/* Universal Selector  */
+/* *{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* Element Selector  */
+/* body{
+    font-size: 20px;
+} */
+
+/* It is Also Worked, they uses Inheritance */
+p{
+    color: blue;
+}
+
+/* Class selector */
+.grey{
+    color: grey;
+    font-style: italic;
+}
+
+/* ID Selector  */
+#second{
+    color: rgb(19, 103, 8);
+}
+
+/* Group Selctor  */
+h1,h2{
+    color: violet;
+}
+
+/* Inside Group Selector */
+p span{
+    background-color:rgb(221, 87, 87);
+}
+
+.grey span{
+    color: blue;
+}
+
+.highlight{
+    background-color: rgb(223, 16, 16);
+}
