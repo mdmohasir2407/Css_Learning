@@ -5,6 +5,8 @@
     font-size: 50px;
 } */
 
+/* --------------------------------------------------------------------------------------------- */
+
 /* Chapter - Selectors  */
 
 /* Universal Selector  */
@@ -58,10 +60,10 @@
 a Class Is 2nd Priority to change the style
 a element is 3rd Priority to change the style */
 
+/* ---------------------------------------------------------------------------------------------- */
 
 /* Chapter - Color */
-/* 
-body{
+/* body{
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(137, 6, 6);
@@ -85,14 +87,10 @@ body{
     (Min)0% To 100%(Max)Saturation & Lightness. 
     Also Same As hsla With Transparency.(0 To 1)
 } */
+ 
+/* -------------------------------------------------------------------------------------------------------------- */
 
 /* Chapter - Units And Values */
-
-/* h1 has 24 px == 1.5em  */
-/* h1{
-    font-size: 1.5em;
-} */
-
 /* header{
    width: 50%;       
 } */
@@ -103,10 +101,66 @@ body{
     width: 50%;
 } */
 
+/* main{
+     font-size: 2rem;  
+     It Is Root Element(rem),It Has Double The Px Size eg:16*2=32 px into 2rem.  
+}
+     
+p{
+    font-size: 2em;
+    it Is Relative Of (rem) of (em). Rem already 32px into Double it em. 32*2=64px 2em. 
+}
+(px) Into Double It (rem) 16 * 2 = 32px  - 2rem
+(rem) Into Double It (em) 2rem(32px) * 2rem(32px) = 2em(64px) */
 
+/* h1{
+    width: 50%;
+    border:2px dashed red ;
+    font-size: 2rem;
+    padding: 0.8em;
+}  
+ Connecting To Same Font-size To Padding  */
 
+/* p{
+    font-size: 1rem;
+    width: 40ch;
+}
+It Is 40 Characters To Break The Line used For (CH) */
 
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+} 
+It Is Full Page Occupied USing Viewport Height 
+because body has only occupied start text to ending text but this (vh) has whole Page Occupied.
 
+main{
+    background-color: rgba(0, 11, 228, 0.197);
+    width: 50vw;
+    View - Port Width It Same As Percentage 50 Percent Only used then Break To Next Line Working.
+} */
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+/* Chapter - Box Model  */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: content-box; It Is Only Occupied Content Box Only Used width: 400px.  
+    box-sizing: border-box; Border Box Has content , padding , border also pick And Collab With 400px Used . */
+}
+  .container{
+    border: 3px dashed blue;
+    font-size: 1.5rem;
+    /* margin: 1em 2em 3em 4em;       Top(1em) - Right(2em) - Bottom(3em) - Left(4em)   Clockwise.
+    margin: 1em 2em;               Top-Bottom(1em)    Right-Left(2em) */
+    margin: 1.5em;
+    padding: 1.5em;
+}
 
 
 
@@ -131,5 +185,11 @@ body{
     border-style: outset;      = Right & Down Side Only Width Effectively Worked
     border-style: hidden/none; = Not Shown The Line & Same As (None)
     border-style: inset outset;= Mixed Working Style  
+
+    It Is Specificly Change Top Right Bottom Left Anything 
+    border-top-width: 10px;
+    border-top-color: black;
+    border-top-style:dotted;
+    border-radius: 20px;
 } */
 
