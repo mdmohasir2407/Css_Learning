@@ -53,7 +53,7 @@
 
 /* Universal Selector To Inherit Because Form Has Not Font Style Change */
 /* input,button{
-    font: inherit;
+   font: inherit;
 } */
 
 /* a ID is 1st Priority To Change the style 
@@ -147,31 +147,22 @@ main{
 /* -------------------------------------------------------------------------------------------------------------- */
 
 /* Chapter - Box Model  */
-*{
+/* *{
     margin: 0;
     padding: 0;
-    /* box-sizing: content-box; It Is Only Occupied Content Box Only Used width: 400px.  
-    box-sizing: border-box; Border Box Has content , padding , border also pick And Collab With 400px Used . */
+    box-sizing: content-box; It Is Only Occupied Content Box Only Used width: 400px.  
+    box-sizing: border-box; Border Box Has content , padding , border also pick And Collab With 400px Used .
 }
   .container{
-    border: 3px dashed blue;
-    font-size: 1.5rem;
-    /* margin: 1em 2em 3em 4em;       Top(1em) - Right(2em) - Bottom(3em) - Left(4em)   Clockwise.
-    margin: 1em 2em;               Top-Bottom(1em)    Right-Left(2em) */
-    margin: 1.5em;
-    padding: 1.5em;
-}
+      border: 10px double blue;
+      font-size: 1.5rem;
+      margin: 1.5em;
+      padding: 1.5em;
+      margin: 1em 2em 3em 4em;       Top(1em) - Right(2em) - Bottom(3em) - Left(4em)   Clockwise.
+      margin: 1em 2em;               Top-Bottom(1em)    Right-Left(2em)
+} */
 
-
-
-
-
-
-
-
-
-
-
+/* ------------------------------------------------------------------------------------------------------------------ */
 
 /* Chapter - Border Style */
 /* h1{
@@ -191,5 +182,71 @@ main{
     border-top-color: black;
     border-top-style:dotted;
     border-radius: 20px;
+
+    It Is Border Outline Between Gap Space or Inside (-) Space.
+    outline: 5px solid red;       border-  Outline Width (5px) 
+    outline-offset: -20px ;       border Inside(-20px) Outline Worked (Outside(+20px) 
+}  */
+
+/* .circle{
+    margin: 2em auto;   auto means automatic set center point of aligned
+    border: 10px solid #009fb7;
+    background-color: yellow;
+    width : 100px;          Width & Height To Set The Box Model Concept
+    height: 100px;
+    outline: 5px dashed black;
+    outline-offset: 10px;
+    border-radius: 100%;    Radius Has Used Circle Concept Using With Percentage.
 } */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Chapter - Typography */
+/* Typography is a the way of text arrangend and presentation */
+
+body{
+    padding: 10%; /* It Is Correctly Center It Form Example */
+    font-size: 1rem;
+}
+
+p{
+    /* text-decoration:overline;  Overline Has Line Top Side Strike Out. 
+    text-decoration:underline;    Underline Has Underline the text. 
+    text-decoration: line-through; Strikout The Line.
+    text-decoration: none;  It Is Link Underline Remove For None Decoration
+    
+    text-transform: uppercase;  It Is Full Of Capital Letter 
+    text-transform: lowercase;  It Is Full Of Small Letter 
+    text-transform:capitalize; It Is Every Word Start Letter Capital Letter 
+
+    text-align: center;
+    text-align: end/right; It Is End Of The Corner To filled.
+    text-align: justify;  It Is Same Line Ending And Break it. 
+   
+    text-indent: 1.5em; It Is heading to Subheading space Starting 
+
+    text-shadow: 5px 5px  6px rgb(243, 26, 26);  It Is (right down blurred)
+    text-shadow: 5px 5px 5px #dd131393, -20px -20px 5px blue;  It Is (right down blur Using(+)) and (left up blur(-))*/
+  
+   
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
