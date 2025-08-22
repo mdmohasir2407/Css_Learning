@@ -204,13 +204,13 @@ main{
 /* Chapter - Typography */
 /* Typography is a the way of text arrangend and presentation */
 
-body{
-    padding: 10%; /* It Is Correctly Center It Form Example */
+/*  body{
+    padding: 10%; It Is Correctly Center It Form Example
     font-size: 1rem;
 }
 
 p{
-    /* text-decoration:overline;  Overline Has Line Top Side Strike Out. 
+    text-decoration:overline;  Overline Has Line Top Side Strike Out. 
     text-decoration:underline;    Underline Has Underline the text. 
     text-decoration: line-through; Strikout The Line.
     text-decoration: none;  It Is Link Underline Remove For None Decoration
@@ -226,20 +226,117 @@ p{
     text-indent: 1.5em; It Is heading to Subheading space Starting 
 
     text-shadow: 5px 5px  6px rgb(243, 26, 26);  It Is (right down blurred)
-    text-shadow: 5px 5px 5px #dd131393, -20px -20px 5px blue;  It Is (right down blur Using(+)) and (left up blur(-))*/
+    text-shadow: 5px 5px 5px #dd131393, -20px -20px 5px blue;  It Is (right down blur Using(+)) and (left up blur(-))
   
-   
+    line-height:1.5em;   It Is Line Height 
+    letter-spacing:0.1em ;   Letter Spaceing
+    word-spacing: 0.3em;   It Is Word Space
+    font-family: "Edu NSW ACT Cursive";  Link In Google Font 
+}*/
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* Chapter - Styling Links */
+
+/* a{
+    text-decoration: none;
+    cursor:no-drop; cursor:not-allowed;      It Is Not Allowed Red Color
+    cursor:all-scroll;  cursor:move;         4side move symbol   
+    cursor: pointer;                         Hand Touch normal used
+    cursor:progress;                         Loading cursor with Mouse 
+    cursor:wait;                             It Is Only Loading symbol
+    cursor:text;                             It Is I Symbol  
+    cursor:zoom-out;                         Zoom Out Symbol
+    cursor: zoom-in;                         Zoom In Symbol 
+}*/
+
+                 /* (LVHA)    Link Visited Hover Active    It Is Order Format To Worked  */ 
+
+/* a:link{
+    color: #003E85;              It Is Link Color Default Settings
+}
+             
+a:visited{
+    color: green;                  It Is Click Then Return Show This Color Means Visted(Paatachu)
+}
+
+a:hover{
+    color: black;                It Is Mouse drag To Hover The Link Then Show This Color
+    opacity:0.5;                 Also Use Rgba Transparency used to worked
+}
+
+a:active{
+    color: red;                    It Is Click the link betweem the time show The Color 
+} */
+
+/* 
+.grey::before{
+    content: '"Before Means Starting "';
+    color: red;
+}
+.grey::after{
+    content: '"After Means Ending"';
+    color: red;
+}   
+.grey::first-letter{        It Is First Letter Add 
+    color: #31ec07;
+
+.grey:first-child {
+    color:blue;                  grey have 3 lines first Child Means First Line    
+
+::selection{
+    color: green;
+    background-color: rgb(225, 9, 225);  It Is Normal Select The Text Then Change The Color
+}
+
+Example Of After/Before 
+h1{
+    position: relative;
+}
+h1::after{
+    position:absolute;
+    font-size: 10px;
+    text-indent: 5px;
+    content: " Thanks";               It Is Text Top Side used.
+    background-color: crimson;
+    height: 20px;
+    width: 40px;
+    left: 50%;
+    
+} */
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* Chapter - List & Style */
+/* ol{
+    list-style-type:none;      It Is Not Shown Bullet Point.
+    list-style-type:upper-roman;
+                Html Tag Inside Attribute Used With (Start="5") So They Show 5th To Start
+                Then Also Reversed Used In Html To Reverse The Number
+                Value Has Mention To Straightly Show a That Number Or Alphabet.
+}
+
+ul{
+    list-style-type: circle;
+    text-align: center;
+    color: blue;
+    list-style:square url(/Images/htmllogo.png) inside;  Inside Means Text Center Position To Relay With Bullet Point
+}
+
+ul li:nth-child(3){
+    color: red;            It Is Specifically Changed For The Color
 } 
 
+::marker {
+color:red;                        It Means Bullet Point Changer Color Used 
+} */
+ 
+/* ul li::marker{
+    color: brown;
+    content: "->   ";        Content Is Type The Words Inside a Text 
+} */
 
-
-
-
-
-
-
-
-
+/* --------------------------------------------------------------------------------------------------------- */
 
 
 
