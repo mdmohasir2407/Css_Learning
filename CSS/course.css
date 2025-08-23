@@ -338,12 +338,115 @@ color:red;                        It Means Bullet Point Changer Color Used
 
 /* --------------------------------------------------------------------------------------------------------- */
 
+/* Chapter - Display */
+/*
+p{
+    background-color: grey;
+
+}
+
+ .opposite{
+    display: inline-block;
+    background-color: rgb(34, 255, 0);
+    color: red;
+    padding: 2em;           It is Overlay So Use Inline Block      
+    border: 2px solid blue; 
+    /* It Is Only Not Woked Margin Only For Inline Element
+}
+Inline Block Element Has Change With Same line To adjust And Not Overlay 
+That Element With Travel To Change All  
+
+Example Of Inline-Block
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    font-size: 1.5rem;
+}
+ul{
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+}
+li{
+    display: inline-block;
+    margin-inline: 1.3em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    cursor: progress;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: chocolate;
+}
+a:hover{
+       color:chartreuse;
+       font-size: 1.1em;
+}
+a:active{
+    color: red;
+}
+/* Using Inline With List With Navigation Home Page (Menu) Set */
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/* Chapter - Float Concept  */
+/* body{
+   font-size: 1.5rem;
+}
+.block{
+    background-color: black;
+    color: white;
+    width: 30vw;
+    height: 30vh;
+    padding: 1em;
+    margin-right: 1.2em;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+The Clear Has Cut The Line image Down Side Show Other Texts
+}
+
+section{
+    background-color: blue;
+     border:2px solid green;
+     padding: 1em;
+    overflow: auto;   OverFlow auto Has Worked As Image With Full Witdh Obserb And Used Right Side  
+     without Overflow It has Up To The Other Line come To Collab
+     overflow:scroll; It Has Scrolling Concept To Working It 
+     display: flow-root; It Has Same Concept Of Overflow Method Using Flow-root 
+} */
+
+/* ---------------------------------------------------------------------------------------------- */
+
+/* Chapter - Column  */
+body{
+    font-size: 1.5rem;
+}
 
 
+.column{
+    /* column-count: 4;   4 paragraph in horizontal 
+    column-width: 200px;      It Is Width Varaikko Varum */
+    columns: 4 250px;    /*It Is count - width short form*/
+    column-gap: 50px ;   /* It Is Column Gap */
+    column-rule: 2px dashed red;     /*It Is Line Between Columns vertical Line That Means Straight Line*/
+}
 
-
-
-
-
-
-
+.column p{
+    margin-top: 0px; /*Because The First Paragraph Always Show Margin-top Extra Space So This Properties Used It .*/
+}
