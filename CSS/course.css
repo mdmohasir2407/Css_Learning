@@ -434,19 +434,39 @@ section{
 /* ---------------------------------------------------------------------------------------------- */
 
 /* Chapter - Column  */
-body{
+/* body{
     font-size: 1.5rem;
 }
 
 
 .column{
-    /* column-count: 4;   4 paragraph in horizontal 
-    column-width: 200px;      It Is Width Varaikko Varum */
-    columns: 4 250px;    /*It Is count - width short form*/
-    column-gap: 50px ;   /* It Is Column Gap */
-    column-rule: 2px dashed red;     /*It Is Line Between Columns vertical Line That Means Straight Line*/
+    column-count: 4;   4 paragraph in horizontal 
+    column-width: 200px;      It Is Width Varaikko Varum
+    columns: 4 250px;    It Is count - width short form
+    column-gap: 50px ;   It Is Column Gap
+    column-rule: 2px dashed red;     It Is Line Between Columns vertical Line That Means Straight Line
 }
 
 .column p{
-    margin-top: 0px; /*Because The First Paragraph Always Show Margin-top Extra Space So This Properties Used It .*/
+    margin-top: 0px; Because The First Paragraph Always Show Margin-top Extra Space So This Properties Used It .
 }
+
+.column h2{
+    border: 2px solid red;
+    color: chartreuse;
+    padding: 1em;
+    background-color: blue;
+    break-inside: avoid;    It has Used For Oru Box Use Pandrana Adhu Pathi Pathi Ya next column varu so adha avoid pandradhukku use pandradhu
+}
+
+.column .quote{       It Is Specificity To That Means element Hover To see it. It Will which one is higher Point Then Only Worked All .So Two Class Has 20 Points SO The Margin Working.
+    margin-top: 1.2em;
+    color: #333;
+    text-align: center;
+    font-size: 1.5em;
+    column-span: all;   It Is Center Space To Working It As All Column Center
+}
+
+.nowrap{
+    white-space: nowrap;  It Will Works For two words inspect pannumbodhu thani thani ya varma keela onno varum
+} */
